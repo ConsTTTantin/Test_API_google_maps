@@ -1,0 +1,44 @@
+
+Метод POST
+https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+{'status': 'OK', 'place_id': '6efffead8f35413d13b26823b2a49068', 'scope': 'APP', 'reference': '160c90947f8c6135ecf69b8b6ba7c1c0160c90947f8c6135ecf69b8b6ba7c1c0', 'id': '160c90947f8c6135ecf69b8b6ba7c1c0'}
+УСПЕШНО, Статус код: 200
+Все поля присутствуют
+status верен!
+
+Метод GET POST
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6efffead8f35413d13b26823b2a49068
+{'location': {'latitude': '-38.383494', 'longitude': '33.427362'}, 'accuracy': '50', 'name': 'Frontline house', 'phone_number': '(+91) 983 893 3937', 'address': '29, side layout, cohen 09', 'types': 'shoe park,shop', 'website': 'http://google.com', 'language': 'French-IN'}
+УСПЕШНО, Статус код: 200
+Все поля присутствуют
+address верен!
+
+Метод PUT
+https://rahulshettyacademy.com/maps/api/place/update/json?key=qaclick123
+{'msg': 'Address successfully updated'}
+УСПЕШНО, Статус код: 200
+Все поля присутствуют
+msg верен!
+
+Метод GET PUT
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6efffead8f35413d13b26823b2a49068
+{'location': {'latitude': '-38.383494', 'longitude': '33.427362'}, 'accuracy': '50', 'name': 'Frontline house', 'phone_number': '(+91) 983 893 3937', 'address': 'Dmitrovsokoe schose 100', 'types': 'shoe park,shop', 'website': 'http://google.com', 'language': 'French-IN'}
+УСПЕШНО, Статус код: 200
+Все поля присутствуют
+address верен!
+
+Метод DELETE
+https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+{'status': 'OK'}
+УСПЕШНО, Статус код: 200
+Все поля присутствуют
+status верен!
+
+Метод GET DELETE
+https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=6efffead8f35413d13b26823b2a49068
+{'msg': "Get operation failed, looks like place_id  doesn't exists"}
+УСПЕШНО, Статус код: 404
+Все поля присутствуют
+msg верен!
+
+Тестирование по Google Maps прошло успешно
